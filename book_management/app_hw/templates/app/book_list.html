@@ -1,0 +1,24 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Start Page
+{% endblock %}
+
+{% block content %}
+
+    <h1>Book List</h1>
+<div class="div_book">
+    {% for book in book_list %}
+        <p>{{ book.title }}</p>
+        <p><a href="{% url 'book_detail' book.slug %}">detail</a>
+           <a href="{% url 'update_book' book.slug %}">Update</a>
+           <a href="{% url 'delete_book' book.slug %}">Delete</a>
+        </p>
+    {% endfor %}
+</div>
+    <br><br>
+    <p class="p"><a href="{% url 'start_page' %}">back</a></p>
+
+{% endblock content %}

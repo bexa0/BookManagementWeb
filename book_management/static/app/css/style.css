@@ -1,0 +1,82 @@
+body{
+    background-color: wheat;
+}
+.main_div{
+    width: 400px;
+    margin: 100px auto;
+}
+.div_create {
+    width: 300px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 40px;
+    background-color: steelblue;
+    border-radius: 8px;
+}
+.div_list{
+    width: 300px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 40px;
+    background-color: steelblue;
+    border-radius: 8px;
+}
+.div_book{
+    background-color: tomato;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.div_author{
+    background-color: tomato;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.div_book_detail h2{
+    margin-left: 150px;
+}
+.div_book_detail{
+    background-color: darkgrey;
+    padding-left: 20px;
+}
+.div_author_detail h2{
+    margin-left: 150px;
+}
+.div_author_detail{
+    background-color: darkgray;
+    padding-left: 20px;
+    border-radius: 13px;
+}
+.div_update_book{
+    background-color: darkgoldenrod;
+    width: 300px;
+    height: 350px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.div_update_author{
+    background-color: darkgoldenrod;
+    width: 300px;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.div_book_create{
+    width: 300px;
+    height: 400px;
+    background-color: cornflowerblue;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.div_author_create{
+    width: 300px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+}

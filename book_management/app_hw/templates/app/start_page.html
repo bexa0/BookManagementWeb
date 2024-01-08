@@ -1,0 +1,22 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Start Page
+{% endblock %}
+
+{% block content %}
+
+    <h1>Main Page</h1>
+
+    <div class="div_create">
+        <p><a href="{% url 'create_book' %}">book create</a></p>
+        <p><a href="{% url 'create_author' %}">author create</a></p>
+    </div>
+    <br>
+    <div class="div_list">
+        <p><a href="{% url 'book_list' %}">Books</a></p>
+        <p><a href="{% url 'author_list' %}">Authors</a></p>
+    </div>
+{% endblock content %}

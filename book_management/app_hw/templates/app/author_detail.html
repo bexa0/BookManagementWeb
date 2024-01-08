@@ -1,0 +1,16 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Create Book
+{% endblock %}
+
+{% block content %}
+<div class="div_author_detail">
+    <h2>{{ author }}</h2>
+    <p>First name: {{ author.first_name }}</p>
+    <p>Last name: {{ author.last_name }}</p>
+    <a href="{% url 'author_list' %}">back to author list</a>
+</div>
+{% endblock content %}

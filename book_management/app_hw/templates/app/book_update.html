@@ -1,0 +1,20 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Create Book
+{% endblock %}
+
+{% block content %}
+
+<div class="div_update_book">
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Update</button>
+        <br>
+        <p><a href="{% url 'book_list' %}">back to book list</a></p>
+    </form>
+</div>
+{% endblock content %}
